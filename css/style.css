@@ -1,0 +1,355 @@
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Golos+Text&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300;400;500;600&family=Raleway:wght@100&family=Rubik:wght@300&family=Titillium+Web:wght@200;300&display=swap');
+
+/* General styling */
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+i{
+    position: relative;
+    text-decoration: none;
+}
+
+
+
+/* navigation bar */
+
+.navbar{
+    margin: 1.8% 0 1.8% 0 !important;
+}
+
+.navbar-brand h1{
+    font-size: 1.5em; 
+}
+
+.navbar-brand h1 b{
+    color: #008b8b;
+}
+
+.navbar-toggler-icon{
+    font-size: .8em;
+    /* border: none !important; */
+}
+
+.navbar-toggler{
+    color: #008b8b !important;
+}
+
+.navbar-nav li a{
+    font-size: 1.05em;
+}
+
+.navbar-nav li i{
+    font-size: 1.2em;
+    color: #000000;
+}
+
+.navbar-nav li i:hover{
+    color: #008b8b;
+}
+
+.navbar-nav a:hover{
+    font-weight: bold;
+    color: #008b8b !important;
+}
+
+.navbar-nav .active{
+    color: #008b8b !important;
+    font-weight: bold;
+}
+
+/* End Navigation Bar */
+
+
+
+
+/* Front view page */
+
+.front-view{
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.front-view .b-1{
+    background-color: #ffffff;
+    color: #008b8b;
+    border: 2px solid #008b8b;
+    font-size: .9em;
+    font-weight: bold;
+    border-radius: .2em;
+    padding: .7em 2em;
+    margin-top: 2em;
+    margin-bottom: 1.3em;
+}
+
+.front-view .b-1:hover{
+    color: #008b8b81;
+    border: 2px solid #008b8b81; 
+}
+
+.front-view .b-2{
+    background-color: #008b8b;
+    color: #ffffff;
+    border: 2px solid #008b8b;
+    font-size: .9em;
+    font-weight: bold;
+    border-radius: .2em;
+    padding: .7em 2em;
+    margin-top: 1em;
+    margin-bottom: 1.3em;
+}
+
+.front-view .b-2:hover{
+    background-color: #008b8b81;
+    color: white;
+    border: 2px solid #008b8b05;
+}
+
+/* End Front view page */
+
+
+/* trending clothes */
+
+#trendings{
+    margin: 5%;
+}
+
+.trending img{
+    width: 100%;
+    padding-bottom: 1em;
+
+}
+
+#trendings h1{
+    padding-left: 5.5rem;
+    color: #444;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+#trendings b{
+    color: #008b8b;
+    font-weight: bold;
+}
+
+.trending{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.cloth-1{
+    background-color: #ffffff;
+    margin: 5%;
+    padding: 1em 1em 0 1em;
+    box-shadow: 0 2px 12px 4px #3434343d;
+    border-radius: 1em;
+}
+
+.cloth-1 .fa-heart{
+    font-size: 1.4em;
+    color: #008b8b;
+}
+
+
+.cloth-1 .fa-heart:hover{
+    color: #ff0000;
+}
+
+.cloth-1 h2{
+    font-size: 1.3em;
+    color: #000;
+    font-weight: bold;
+}
+
+.cloth-1 .h2-span i{
+    float: right;
+    font-size: 1.3em;
+    bottom: 1.5em;
+    color: #ffd900;
+}
+
+.cloth-1 a{
+    font-size: 1.1em;
+    color: #919191 !important;
+    text-transform: none;
+    text-decoration: none;
+}
+
+/* end trending clothes */
+
+
+
+/* Testimonies */
+
+.testimonies{
+    padding-top: 3rem;
+  }
+
+.testimonie h1 b{
+    color: #008b8b;
+}
+
+.testimonie h1{
+    color: #444;
+    padding-left: 10%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+  }
+  
+  .testimonie-cards{
+    padding: 3rem;
+  }
+  
+  .testimonie-div .testimonie-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+  
+  .testimonie-div .testimonie-cards>div{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 2rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 2px solid #84a59d;
+    transition: all 1s ease;
+    border-radius: .5rem;
+  }
+  
+  .testimonie-cards img{
+    width: 30%;
+    border-radius: 3rem;
+  }
+  
+  .testimonie-cards h1{
+    color: #84a59d;
+    font-size: .9rem;
+    padding-top: 1.5rem;
+    padding-bottom: .7rem;
+  }
+  
+  .testimonie-cards p{
+    color: #777;
+    font-size: .9rem;
+  }
+  
+  .testimonie-cards h6{
+    text-align: right;
+  }
+  
+  .testimonie-cards .bx{
+    color: #fce45e;
+    padding: .1rem;
+    font-size: 1.1rem;
+  }
+  
+  
+  @media only screen and (max-width:653px){
+      
+    .testimonie-div .testimonie-cards {
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+ /* End of testimonies */
+
+/* Newsletter */
+
+#newsletter{
+    text-align: center;
+    padding: 5em 0 8em 0;
+    background-image: url(/images/sample.jpg);
+    background-size:cover;
+}
+
+.newsletter h1{
+    color: #ffffff;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-weight: 550;
+    padding-bottom: .5em;
+}
+
+.newsletter p{
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: .8em;
+    padding-top: 0;
+    letter-spacing: 1px;
+}
+
+.newsletter input{
+    margin-top: 2em;
+    padding: .6em 4em .6em .6em;
+    width: 20%;
+    border: none;
+    border-radius: .5em;
+}
+.newsletter input::placeholder{
+    font-size: .8em;
+}
+
+.newsletter button{
+    background-color: #fce45e;
+    font-weight: bold;
+    font-size: .9em;
+    border-radius: .5em;
+    color: #002d3d;
+    text-transform: uppercase;
+    border: none;
+    padding: .7em 2em .7em 2em;
+    margin-left: 1em;
+}
+.newsletter button:hover{
+    background-color: #ffffff;
+}
+/* Newsletter */
+
+
+/* footer */
+
+#footer{
+    background-color: #008b8b;
+    padding: .3% 0 0 0;
+    text-align: center;
+    /* border-top: 2px solid #ffffff; */
+    border-bottom: 2px solid #008b8b;
+}
+
+.footer i{
+    color: #ffffff;
+    font-size: 1.7em;
+    padding: 1.3em;
+}
+.footer i:hover{
+    color: #383838;
+}
+
+.in-footer h1{
+    font-size: 1.5em; 
+    padding-bottom: .5em;
+}
+
+.in-footer h1 b{
+    color: #ffffff;
+}
+
+.in-footer p{
+    color: #ffffff;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* End */

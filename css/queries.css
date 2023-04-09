@@ -1,0 +1,25 @@
+
+
+/* Navigation bar */
+
+@media only screen and (max-width:326px){
+   .navbar-brand h1{
+        font-size: 1em; 
+    }
+  }
+
+
+/* trending clothes */
+
+@media only screen and (max-width:653px){
+    .trending{
+         grid-template-columns: repeat(1,1fr);
+       }
+     }
+
+
+
+
+
+
+
