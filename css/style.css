@@ -1,6 +1,7 @@
 
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Golos+Text&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300;400;500;600&family=Raleway:wght@100&family=Rubik:wght@300&family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Dosis:wght@200;300&family=Jost:wght@200;300&family=Montserrat:wght@100;200;300;400&family=Quicksand:wght@300;400&family=Ysabeau:wght@1;100;200;300;400;500;600&display=swap');
 
 /* General styling */
 
@@ -17,12 +18,15 @@ i{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 
 /* navigation bar */
 
 .navbar{
-    margin: 1.8% 0 1.8% 0 !important;
+    margin: 1.1% 0 1.1% 0 !important;
 }
 
 .navbar-brand h1{
@@ -119,6 +123,7 @@ i{
 
 #trendings{
     margin: 5%;
+    padding-bottom: 5em;
 }
 
 .trending img{
@@ -142,7 +147,7 @@ i{
 
 .trending{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
 }
 
 
@@ -150,8 +155,8 @@ i{
     background-color: #ffffff;
     margin: 5%;
     padding: 1em 1em 0 1em;
-    box-shadow: 0 2px 12px 4px #3434343d;
-    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* border-radius: .5em; */
 }
 
 .cloth-1 .fa-heart{
@@ -269,9 +274,10 @@ i{
 
 #newsletter{
     text-align: center;
-    padding: 5em 0 8em 0;
-    background-image: url(/images/sample.jpg);
+    padding: 7em 0 8em 0;
+    background-image: url(/images/ehimetalor-akhere-unuabona-hLLNl3oGFOI-unsplash.jpg);
     background-size:cover;
+    margin-top: 8em;
 }
 
 .newsletter h1{
@@ -318,38 +324,371 @@ i{
 /* Newsletter */
 
 
-/* footer */
-
-#footer{
-    background-color: #008b8b;
-    padding: .3% 0 0 0;
+/* ----------------------------------- SELECTION ----------------------------------- */
+#selection{
+    padding-top: 8em;
+    padding-bottom: 6em;
+    font-family: 'Ysabeau', sans-serif;
+}
+#selection p{
     text-align: center;
-    /* border-top: 2px solid #ffffff; */
-    border-bottom: 2px solid #008b8b;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.1em;
+    padding-bottom: 2em;
 }
 
-.footer i{
-    color: #ffffff;
-    font-size: 1.7em;
-    padding: 1.3em;
-}
-.footer i:hover{
-    color: #383838;
+.selection-text{
+    text-align: center;
 }
 
-.in-footer h1{
-    font-size: 1.5em; 
-    padding-bottom: .5em;
-}
-
-.in-footer h1 b{
-    color: #ffffff;
-}
-
-.in-footer p{
-    color: #ffffff;
-    font-size: .8em;
-    text-transform: uppercase;
+.selection-text h3{
+    display: inline;
+    padding: 0 1em 0 1em;
+    font-size: 1.2em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #555555;
+    text-transform: uppercase;
 }
-/* End */
+.h3-two{
+    color: #008b8b !important;
+}
+
+.selection-text h3:hover{
+    color: #008b8b;
+}
+
+
+.selection{
+    margin-top: 5.5em;
+    padding: 0 2em 0 2em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+
+.selection img{
+    width: 95%;
+}
+
+.s-div1 h5{
+    padding-top: 1.4em;
+    font-size: 1em;
+    color: #777777;
+}
+
+.s-div1 h5:hover{
+    color: #008b8b;
+}
+
+.s-div1 h6{
+    padding-bottom: 1em;
+    font-size: 1.6em;
+    color: #777777;
+    margin-top: -.5em;
+    font-weight: 300;
+}
+
+.s-button{
+    text-align: center ;
+    padding-top: 3em;
+}
+
+.s-button button{
+    text-align: center;
+    background-color: #008b8b;
+    border: 2px solid #008b8b;
+    padding: 1.3em 4em 1.3em 4em;
+    font-size: .9em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.s-button button:hover{
+    background-color: transparent;
+    border: 2px solid #008b8b;
+    color: #008b8b;
+}
+
+/* ----------------------------------- SELECTION END ------------------------------- */
+
+
+
+
+/* ----------------------------------- DISCOUNT ------------------------------- */
+.discount{
+    margin-top: 5em;
+    margin-bottom: 10em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.discount-div1{
+    background-color: #007070;
+    color: white;
+    font-weight: bold;
+    padding-top: 7em;
+    padding-bottom: 7em;
+}
+.discount-div1 h1{
+    padding-left: 1em;
+    /* font-weight: bold; */
+    line-height: 2;
+    
+}
+
+.discount-line{
+    border: 2px solid #ffffff;
+    width: 70%;
+    font-weight: bolder;
+}
+
+.discount-div2{
+    background-image: linear-gradient(rgba(86, 70, 97, 0.178),rgba(74, 60, 83, 0.356)),url('../images/the-nix-company-4Hmj9gkyM6c-unsplash.jpg');
+    background-size:cover;
+    text-align: center;
+}
+
+.discount-div2 h1{
+    padding-left: 1em;
+    /* font-weight: bold; */
+    line-height: 1.4;
+    font-weight: bold;
+    color: #ffffff;
+}
+.discount-div2 h3{
+    margin-top: 4em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 1em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.discount-div2 button{
+    padding: .8em 1.7em;
+    background-color: #ffffff;
+    color: #008b8b;
+    font-weight: bold;
+    font-size: .9em;
+    border: 2px solid #ffffff;
+    border-radius: .2em;
+    margin-top: 4em;
+}
+
+.discount-div2 button:hover{
+    background-color: transparent;
+    color: #ffffff;
+   border: 2px solid #ffffff;
+}
+
+/* ----------------------------------- DISCOUNT END ------------------------------- */
+
+
+
+
+
+
+/* ------------------------------------ SHOW NOW ---------------------------------- */
+.show{
+    font-family: 'Ysabeau', sans-serif;
+    display: grid;
+    padding: 2em;
+    margin-bottom: 7em;
+    grid-template-columns: repeat(2,1fr);
+    color: #ffffff;
+}
+
+/* show-div1 */
+.show-div1{
+    background-image: linear-gradient(rgba(86, 70, 97, 0.178),rgba(74, 60, 83, 0.356)),url('../images/aaaa.jpeg');
+    background-size:cover;
+    padding-top: 80%;
+    padding-left: 2em;
+    margin: .5em;
+}
+
+/* show-div2 */
+.s-div2{
+    background-image: linear-gradient(rgba(86, 70, 97, 0.178),rgba(74, 60, 83, 0.356)),url('../images/bbb.jpeg');
+    background-size:cover;
+    padding-top: 30%;
+    margin-bottom: .5em;
+    padding-left: .5em;
+}
+
+/* show-div2 */
+.s-div3{
+    background-image: linear-gradient(rgba(86, 70, 97, 0.178),rgba(74, 60, 83, 0.356)),url('../images/bbbbb.jpeg');
+    background-size:cover;
+    padding-top: 30%;
+    padding-left: 2em;
+}
+
+
+.show p{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.show h2{
+    font-size: 2em;
+    margin-top: -.3em;
+    padding-bottom: .5em;
+    font-weight: bold;
+}
+
+.show button{
+    text-align: center;
+    background-color: #008b8b;
+    border: 2px solid #008b8b;
+    padding: 1em 2em 1em 2em;
+    font-size: 1em;
+    color: #ffffff;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.show button:hover{
+    background-color: transparent;
+    border: 2px solid #008b8b;
+    color: #008b8b;
+}
+/* ----------------------------------- SHOW NOW END ------------------------------- */
+
+
+/* ----------------------------------- WELCOME ----------------------------------- */
+.welcome{
+    padding-top: 6em;
+    text-align: center;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.welcome p{
+    font-weight: bold;
+    padding-bottom: .5em;
+    font-size: 1.1em;
+}
+
+.welcome h1{
+    font-weight: bold;
+    font-size: 3em;
+    margin-top: .4em;
+}
+
+.welcome h4{
+    color: #777777;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 2em;
+    margin-top: -1em;
+    line-height: 1.5;
+}
+
+/* ----------------------------------- WELCOME END ------------------------------- */
+
+
+/* ----------------------------------- FOOTER -----------------------------^------ */
+.footer {
+    background-color: #ffffff;
+    padding: 10% 1% 8% 3%;
+    color: #999999;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.footer h4{
+  font-weight: bolder;
+  color: #008b8b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  padding-bottom: .6em;
+}
+
+.footer p{
+  /* text-align: inherit; */
+  font-weight: bold;
+  font-size: .95em;
+  line-height: 2.5;
+  padding-bottom: 1em;
+}
+
+.footer-div-2 p:hover{
+  color: #008b8b;
+}
+
+.footer-div-3 p:hover{
+  color: #008b8b;
+}
+
+.footer-div-icons{
+  padding-top: 1em;
+  margin-left: -1.7em;
+}
+
+.footer-div-icons i{
+  font-size: 1.4em;
+  padding-left: 1em;
+  color: #777777;
+}
+
+.footer-div-icons i:hover{
+  color: #008b8b;
+}
+
+
+.footer-div-2{
+  margin-left: 10em;
+}
+.footer-div-2 p{
+  margin-bottom: -2.2em;
+}
+
+
+.footer-div-3{
+  margin-left: 5em;
+}
+.footer-div-3 p{
+  margin-bottom: -2.2em;
+}
+
+.footer-div-4 input{
+  padding: 1em 3.2em 1em 3.2em;
+  border: 2px solid #c7c7c7;
+  margin-bottom: 2em;
+}
+
+.footer-div-4 ::placeholder{
+  color: #c7c7c7;
+}
+
+.footer-div-4 button{
+  background-color: #008b8b;
+  border: 2px solid #008b8b;
+  padding: 1em 3em 1em 3em;
+  font-size: .9em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bolder;
+  font-family: 'Ysabeau', sans-serif;
+  margin-bottom: 1em;
+}
+
+.footer-div-4 button:hover{
+  background-color: transparent;
+  border: 2px solid #008b8b;
+  color: #008b8b;
+}
+
+.footer-div-icons img{
+  width: 2.7em;
+  padding: .5em;
+}
+
+/* ----------------------------------- FOOTER END --------------------------------- */
+/* END */
